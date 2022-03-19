@@ -39,6 +39,7 @@
 
             <div class="col-sm-10">
                 <input type="text" id="email" class="form-control" />
+                <label id="email-error"></label>
             </div>
         </div>
 
@@ -47,17 +48,18 @@
 
             <div class="col-sm-10">
                 <input type="text" id="phone" class="form-control" />
+                <label id="phone-error"></label>
             </div>
         </div>
 
         <br />
 
         <div class="text-center">
-            <button class="btn btn-secondary">
+            <button class="btn btn-secondary btn-back">
                 <i class="fa fa-chevron-left"></i> Quay lại
             </button>
 
-            <button class="btn btn-success">
+            <button id="btn-save" class="btn btn-success">
                 <i class="fa fa-save"></i> Lưu
             </button>
         </div>
@@ -73,7 +75,7 @@
         crossorigin="anonymous"></script>
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="./js/create.js"></script>
+        <script src="./js/add.js"></script>
 </body>
 
 </html>
